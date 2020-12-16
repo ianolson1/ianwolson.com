@@ -1,0 +1,39 @@
+h1{
+    text-align: center; 
+    font-size: 400%;
+    font-family: 'Libre Baskerville', serif;
+    color:whitesmoke;
+}
+p{
+    text-align: center; 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 200%;
+    color: rgba(255, 255, 255, 0.842);
+}
+.container-fluid{
+    background-image: url(C:\Users\Ian\Code\resume1\src\assets\images\woodgrain.jpeg);
+    border-radius: 25px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-color: lightgrey;
+    border-radius: 5px;
+    background-color: beige;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+
+.iconstyle{
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    color: beige;
+}

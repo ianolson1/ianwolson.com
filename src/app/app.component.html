@@ -1,0 +1,24 @@
+<div class = "container-fluid">
+    <h1 class = "animate__animated animate__jello">Ian Olson</h1>
+    <div class = "text-align: center">
+    <ngx-typed-js [strings] = "['Developer','Student','Friend', 'Hard Worker', 'Quick Learner' ]" backDelay="2000" loop ="true" style="text-align: center;">
+        <p style = "text-align: center" class = "typing"></p>
+    </ngx-typed-js> 
+</div>
+    <p id = "description" style = "text-align: center"></p>
+        <nav style="padding-left: 25px;">
+            <button routerLink="/about" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">About</button>
+            <button routerLink="/education" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">Education</button>
+            <button routerLink="/skills" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">Skills</button>
+            <button routerLink="/experience" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">Experience</button>
+            <button routerLink="/project" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">Project</button>
+            <button routerLink="/contact" routerLinkActive="active"class = "animate__animated animate__bounceInLeft">Contact</button>
+            
+                <a href="https://github.com/ianolson1"> <fa-icon [icon]="['fab', 'github']" class = "iconstyle"> </fa-icon></a>
+                <a href="https://www.linkedin.com/in/ian-olson-a8007612b/"><fa-icon [icon]="['fab', 'linkedin']"class="iconstyle"></fa-icon></a>
+           
+        
+       
+        </nav>
+</div>
+<router-outlet></router-outlet>
